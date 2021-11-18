@@ -1,21 +1,19 @@
-##Projeto Astro-day
+# Projeto Astro-day ⭐ 
 
-Este projeto foi realizado com o objetivo de fixar os conhecimentos básicos de React JS, criando o ambiente e componentes necessários para
-renderizar uma página simples, apenas com algumas informações de um arquivo que simula um JSON. O conteúdo desse arquivo
-são informações do Astronomy Picture of the Day Archive da NASA.
+Este projeto foi realizado com o objetivo de fixar os conhecimentos básicos de React JS, criando o ambiente e componentes necessários para renderizar uma página simples, com algumas informações de um arquivo que simula um JSON. O conteúdo desse arquivo são informações do Astronomy Picture of the Day Archive da NASA.
 
 ## Passo a Passo de como criei este projeto com React JS
 
--Criei um projeto react: yarn create react-app hello-world;
--Quando apareceu Happy Hacking, significa que foi criado com sucesso;
--Apaguei as informações default, como imagens, arquivos, tags, que não foram utilizadas;
--Criei e exportei um arquivo que simula um JSON;
--Criei um componente título, que foi renderizado por children;
--Criei um outro componente que mapeia os dados do arquivo que simula o JSON e retorna data, nome do autor, imagem e explicação;
--Importei no App.js os componentes criados;
--E assim foi finalizado o projeto, alcançando o objetivo proposto.
+- Criei um projeto react: yarn create react-app hello-world;
+- Quando apareceu Happy Hacking, significa que foi criado com sucesso;
+- Apaguei as informações default, como imagens, arquivos, tags, que não foram utilizadas;
+- Criei e exportei um arquivo que simula um JSON;
+- Criei os componentes: título, subtítulo e card, que foram renderizados por children;
+- Criei um outro componente que mapeia os dados do arquivo que simula o JSON e retorna data, nome do autor,  explicação e imagem;
+- Importei no App.js os componentes criados;
+- E assim foi finalizado o projeto, alcançando o objetivo proposto.
 
-OS dados de outros dias, podem ser obtidos neste link: https://apod.nasa.gov/apod/archivepixFull.html
+Os dados de outros dias, podem ser obtidos neste link: https://apod.nasa.gov/apod/archivepixFull.html
 
 
 ## Getting Started with Create React App
