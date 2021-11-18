@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+#Projeto Astro-day
+
+Este projeto foi realizado com o objetivo de fixar os conhecimentos básicos de React JS, criando o ambiente e componentes necessários para
+renderizar uma página simples, apenas com algumas informações de um arquivo que simula um JSON. O conteúdo desse arquivo
+são informações do Astronomy Picture of the Day Archive da NASA.
+
+## Passo a Passo de como criei este projeto com React JS
+
+-Criei um projeto react: yarn create react-app hello-world;
+-Quando apareceu Happy Hacking, significa que foi criado com sucesso;
+-Apaguei as informações default, como imagens, arquivos, tags, que não foram utilizadas;
+-Criei e exportei um arquivo que simula um JSON;
+-Criei um componente título, que foi renderizado por children;
+-Criei um outro componente que mapeia os dados do arquivo que simula o JSON e retorna data, nome do autor, imagem e explicação;
+-Importei no App.js os componentes criados;
+-E assim foi finalizado o projeto, alcançando o objetivo proposto.
+
+OS dados de outros dias, podem ser obtidos neste link: https://apod.nasa.gov/apod/archivepixFull.html
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -33,33 +53,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
