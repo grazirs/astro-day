@@ -1,4 +1,4 @@
-#Projeto Astro-day
+##Projeto Astro-day
 
 Este projeto foi realizado com o objetivo de fixar os conhecimentos básicos de React JS, criando o ambiente e componentes necessários para
 renderizar uma página simples, apenas com algumas informações de um arquivo que simula um JSON. O conteúdo desse arquivo
